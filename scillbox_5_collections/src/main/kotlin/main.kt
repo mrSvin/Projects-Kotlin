@@ -1,38 +1,46 @@
-val contactList = mutableListOf<String>()
-
 fun main(args: Array<String>) {
+
+    val contactList = mutableListOf<String>()
 
     while (true) {
         println("Enter count numbers")
-        val n = readLine()?.toInt() ?: return
+        try {
+            val n = readLine()?.toInt() ?: return
+            if (n > 0) {
+                inputNumber(n, contactList)
+                filterContact(contactList)
+                uniqueContact(contactList)
+                nameContact(contactList)
 
-        if (n > 0) {
-            for (i in 1..n) {
-                println("Enter number $i")
-                val number = readLine()?.toString() ?: return
-                addContact(number)
+            } else {
+                println("number must be >0")
             }
-            filterContact()
-            uniqueContact()
-            nameContact()
-
-        } else {
+        } catch (e: NumberFormatException) {
             println("number must be >0")
         }
+
     }
 }
 
-fun addContact(contact: String) {
+fun inputNumber(n: Int, contactList: MutableList<String>) {
+    for (i in 1..n) {
+        println("Enter number $i")
+        val number = readLine()?.toString() ?: return
+        addContact(number, contactList)
+    }
+}
+
+fun addContact(contact: String, contactList: MutableList<String>) {
     contactList.add(contact)
     println(contactList)
 }
 
-fun filterContact() {
+fun filterContact(contactList: MutableList<String>) {
     val filterContact = contactList.filter { it.startsWith("+7") }
     println("filter numbers: " + filterContact)
 }
 
-fun uniqueContact() {
+fun uniqueContact(contactList: MutableList<String>) {
     val uniqueContact = contactList.toSet()
     println("unique numbers " + uniqueContact)
     println("size contacts " + contactList.size)
@@ -41,7 +49,7 @@ fun uniqueContact() {
     println("sum length contacts " + contactLength)
 }
 
-fun nameContact() {
+fun nameContact(contactList: MutableList<String>) {
     val mapContact = mutableMapOf<String, String>()
     for (i in 0..contactList.size - 1) {
         println("Enter name contacts:" + contactList.get(i))
