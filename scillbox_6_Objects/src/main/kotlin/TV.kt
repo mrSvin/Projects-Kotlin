@@ -14,8 +14,12 @@ class TV(brand: String, model: String, size: Int) {
     var volume = 0
     var chanel = 0
 
-    fun tvOnOff(On: Boolean) {
-        statusTV = On
+    fun tvOnOff() {
+        if (statusTV==true) {
+            statusTV=false
+        } else{
+            statusTV=true
+        }
         println(" статус ТВ включен: $statusTV")
     }
 
@@ -35,7 +39,7 @@ class TV(brand: String, model: String, size: Int) {
 
     fun choiceChanel(value: Int) {
         if (statusTV == false) {
-            tvOnOff(true)
+            tvOnOff()
             chanel = value
             println("Выбран канал: $chanel, статус ТВ включен: $statusTV")
         }
@@ -45,7 +49,7 @@ class TV(brand: String, model: String, size: Int) {
     fun buttonUpChanel() {
         chanel++;
         if (statusTV == false) {
-            tvOnOff(true)
+            tvOnOff()
         }
         if (chanel > listChanels.size) {
             chanel = 0;
@@ -56,7 +60,7 @@ class TV(brand: String, model: String, size: Int) {
     fun buttonDownChanel() {
         chanel--;
         if (statusTV == false) {
-            tvOnOff(true)
+            tvOnOff()
         }
         if (chanel < 0) {
             chanel = listChanels.size;
