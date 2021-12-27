@@ -1,11 +1,9 @@
-class TV {
+class TV(brand: String, model: String, size: Int) {
     //1 пункт
-    var brand = "rubin"
-    var model = "1"
-    var size = 15
-    val on = true
-    val off = false
-    val listChanels = listOf("1.СТС", "2.ОРТ", "3.РТР", "4.РЕНТВ", "5.ДТВ")
+    var brand = brand
+    var model = model
+    var size = size
+    val listChanels = Channels.getRandomChannels()
 
     companion object {
         const val maxVolume = 32
@@ -16,37 +14,32 @@ class TV {
     var volume = 0
     var chanel = 0
 
-    fun tvOnOff(On: Boolean): Boolean {
+    fun tvOnOff(On: Boolean) {
         statusTV = On
         println(" статус ТВ включен: $statusTV")
-        return statusTV
     }
 
-    fun upVolume(value: Int): Int {
+    fun upVolume(value: Int) {
         if (volume + value < maxVolume) {
             volume = volume + value;
             println("Громкость увеличена! Текущая громкость: $volume")
         }
-
-        return volume
     }
 
-    fun downVolume(value: Int): Int {
+    fun downVolume(value: Int) {
         if (volume - value > 0) {
             volume = volume - value;
             println("Громкость уменьшена! Текущая громкость: $volume")
         }
-        return volume
     }
 
-    fun choiceChanel(value: Int): Int {
+    fun choiceChanel(value: Int) {
         if (statusTV == false) {
             tvOnOff(true)
             chanel = value
             println("Выбран канал: $chanel, статус ТВ включен: $statusTV")
         }
 
-        return chanel
     }
 
     fun buttonUpChanel() {
@@ -71,22 +64,7 @@ class TV {
         println("Канал уменьшен на 1! Выбран канал: $chanel")
     }
 
-    //3,4,5 пункт
-    object Channels {
-        var chanels  = mutableListOf<String>()
 
-        fun addChanel(nameChanel: String) {
-            chanels.add(nameChanel)
-        }
-
-        fun getRandomChannels(): List<Any> {
-               chanels= chanels.shuffled() as MutableList<String>
-            println(chanels)
-            return chanels
-        }
-    }
-
-    //4 пункт
 
 
 

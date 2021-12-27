@@ -2,19 +2,11 @@ val contactList = mutableListOf<String>()
 
 fun main(args: Array<String>) {
     //5
-    TV.Channels.addChanel("1.СТС")
-    TV.Channels.addChanel("2.РЕНТВ")
-    TV.Channels.addChanel("3.НТВ")
-    TV.Channels.addChanel("4.РТР")
-    TV.Channels.addChanel("5.ОРТ")
-    TV.Channels.getRandomChannels()
 
     //6
     //Создаем ТВ Самсунг
-    val tv1 = TV()
-    tv1.brand="Samsung"
-    tv1.model="6112"
-    tv1.size=42
+    val tv1 = TV("Samsung", "6112", 42)
+//    print(tv1.chanel)
     print(tv1.brand + " " + tv1.model + " " + tv1.size)
     tv1.tvOnOff(true)
     tv1.tvOnOff(false)
@@ -41,10 +33,7 @@ fun main(args: Array<String>) {
     }
 
     //Создаем ТВ Самсунг
-    val tv2 = TV()
-    tv2.brand="LG"
-    tv2.model="234"
-    tv2.size=55
+    val tv2 = TV("LG","234",55)
     print(tv2.brand + " " + tv2.model + " " + tv2.size)
     tv2.tvOnOff(true)
     tv2.tvOnOff(false)
