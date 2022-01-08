@@ -8,6 +8,7 @@ fun main(args: Array<String>) {
     val tv1 = TV("Samsung", "6112", 42)
 //    print(tv1.chanel)
     print(tv1.brand + " " + tv1.model + " " + tv1.size)
+    tv1.mapChannels()
     tv1.tvOnOff()
     tv1.tvOnOff()
     tv1.upVolume(6)
@@ -35,6 +36,7 @@ fun main(args: Array<String>) {
     //Создаем ТВ Самсунг
     val tv2 = TV("LG","234",55)
     print(tv2.brand + " " + tv2.model + " " + tv2.size)
+    tv2.mapChannels()
     tv2.tvOnOff()
     tv2.tvOnOff()
     tv2.upVolume(6)

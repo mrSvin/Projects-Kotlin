@@ -1,3 +1,5 @@
+import Channels.chanels
+
 class TV(brand: String, model: String, size: Int) {
     //1 пункт
     var brand = brand
@@ -66,6 +68,17 @@ class TV(brand: String, model: String, size: Int) {
             chanel = listChanels.size;
         }
         println("Канал уменьшен на 1! Выбран канал: $chanel")
+    }
+
+    fun mapChannels(): MutableMap<Int, String> {
+        val mapChanels = mutableMapOf<Int, String>()
+        for (i in 1..chanels.size-1) {
+            mapChanels.put(i, chanels.get(i))
+        }
+        mapChanels.forEach { (key, value) ->
+            println("$key. $value")
+        }
+        return mapChanels
     }
 
 
