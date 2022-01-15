@@ -19,63 +19,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e3233f81-4ba9-41ae-b806-b19e0021329b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../07_ClassesAndObjects/.idea/07_ClassesAndObjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../scillbox_6_Objects/.idea/skillbox_5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/skillbox_11_interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/src/Converters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/src/CurrencyConverter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/src/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/src/RubToEur.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_11_interface/src/RubToUsd.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_12_generics_enum_game/skillbox_12_generics_enum_game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_12_generics_enum_game/src/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_12_generics_enum_game/src/Stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skillbox_7_ClassesAndObjects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bird.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fish.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NatureReserve.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/skillbox_8_Abstractions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/src/BankCard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/src/CreditCard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/src/CreditCardDerivative.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/src/DebitCard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/src/DebitCardDerivative.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_8_Abstractions/src/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../skillbox_3/.gradle/6.6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skillbox_3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../skillbox_3/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../skillbox_3/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../skillbox_3/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+    <list default="true" id="e3233f81-4ba9-41ae-b806-b19e0021329b" name="Default Changelist" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/skillbox_13_exceptions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/src/Wheel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/src/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_14_coroutines/src/main/kotlin/Fibonacci.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_14_coroutines/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
@@ -131,8 +88,18 @@
       <updated>1641647287898</updated>
       <workItem from="1641647290595" duration="10621000" />
       <workItem from="1641710075933" duration="7997000" />
-      <workItem from="1641933910171" duration="218000" />
+      <workItem from="1641933910171" duration="518000" />
+      <workItem from="1642020422054" duration="1189000" />
+      <workItem from="1642225486934" duration="574000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1641934250573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1641934250573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +117,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1641648342286">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -159,26 +130,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="689" y="310" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1641648341625" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1641742393484">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1641934411454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1641742393484" />
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1641934105895">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1641934411454" />
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom" timestamp="1641934400230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641934105895" />
-    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1641934105895">
+    <state width="1877" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1641934400230" />
+    <state width="1877" height="283" key="GridCell.Tab.0.center" timestamp="1641934400230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641934105895" />
-    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1641934105894">
+    <state width="1877" height="283" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1641934400230" />
+    <state width="1877" height="283" key="GridCell.Tab.0.left" timestamp="1641934400230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641934105894" />
-    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1641934105895">
+    <state width="1877" height="283" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1641934400230" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right" timestamp="1641934400230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641934105895" />
+    <state width="1877" height="283" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641934400230" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1641663964772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,6 +166,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1641663964772" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1641934352213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1641934352213" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1641711457728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

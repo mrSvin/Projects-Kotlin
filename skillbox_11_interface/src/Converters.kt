@@ -1,21 +1,22 @@
 object Converters {
     fun get(currencyCode: String): String {
-        var currentCode = ""
+        var converter = ""
 
         val anonymous = object : CurrencyConverter {
             override val currencyCode: String
-                get() = "000"
+                get() = "0"
         }
-        currentCode = anonymous.currencyCode
+        converter = anonymous.currencyCode
 
         if (currencyCode.equals("840")) {
-            currentCode = RubToUsd().currencyCode
+            converter = RubToUsd().currencyCode
         }
         if (currencyCode.equals("978")) {
-            currentCode = RubToEur().currencyCode
+            converter = RubToEur().currencyCode
         }
 
-
-        return currentCode
+        return converter
     }
 }
+
+
