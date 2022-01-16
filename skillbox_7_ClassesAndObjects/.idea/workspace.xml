@@ -20,18 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3233f81-4ba9-41ae-b806-b19e0021329b" name="Default Changelist" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/skillbox_13_exceptions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/src/Wheel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_13_exceptions/src/main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_14_coroutines/src/main/kotlin/Fibonacci.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../skillbox_14_coroutines/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../skillbox_12_generics_enum_game/src/Weapons.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,6 +80,7 @@
       <workItem from="1641933910171" duration="518000" />
       <workItem from="1642020422054" duration="1189000" />
       <workItem from="1642225486934" duration="574000" />
+      <workItem from="1642320250743" duration="449000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <created>1641934250573</created>
