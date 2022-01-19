@@ -12,7 +12,7 @@
 //}
 
 class Stack<T> {
-    val stack = mutableListOf<T>()
+    private val stack = mutableListOf<T>()
 
     fun push(item: T) {
         stack.add(item)

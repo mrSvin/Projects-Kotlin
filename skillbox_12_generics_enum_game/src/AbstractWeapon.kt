@@ -10,13 +10,13 @@ abstract class AbstractWeapon() {
     //Создание патрона необходимого типа
     fun generateAmmo(setAmmoType: Int) {
         if (setAmmoType == 1) {
-            Ammo.damage1.critDamage(Ammo.damage1.value, Ammo.chanceCrit1.value, Ammo.coefCrit1.value)
+            return Ammo.damage1.critDamage(Ammo.damage1.value, Ammo.chanceCrit1.value, Ammo.coefCrit1.value)
         }
         if (setAmmoType == 2) {
-            Ammo.damage2.critDamage(Ammo.damage2.value, Ammo.chanceCrit2.value, Ammo.coefCrit2.value)
+            return Ammo.damage2.critDamage(Ammo.damage2.value, Ammo.chanceCrit2.value, Ammo.coefCrit2.value)
         }
         if (setAmmoType == 3) {
-            Ammo.damage3.critDamage(Ammo.damage3.value, Ammo.chanceCrit3.value, Ammo.coefCrit3.value)
+            return Ammo.damage3.critDamage(Ammo.damage3.value, Ammo.chanceCrit3.value, Ammo.coefCrit3.value)
         }
 
     }

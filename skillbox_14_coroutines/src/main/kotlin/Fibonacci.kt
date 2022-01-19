@@ -1,3 +1,6 @@
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.withTimeout
+import kotlinx.coroutines.yield
 import java.math.BigInteger
 
 object Fibonacci {
@@ -12,6 +15,8 @@ object Fibonacci {
         }
 
         for (i in 3..input) {
+            yield()
+            delay(1)
             result = a + b
             a = b
             b = result;
